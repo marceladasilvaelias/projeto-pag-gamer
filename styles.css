@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+    background: rgb(4, 4, 29);
+}
+img{
+    width: 100%;
+}
+h1{
+
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+}
+input{
+    display: block;
+    background: rgb(252, 248, 248);
+    border: 1px solid rgb(206, 201, 201);
+    border-radius: 4px;
+    height: 50px;
+    width: 350px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+
+  form{
+    background: white;
+    padding: 20px;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    opacity:0;
+    transition:  opacity 1s;
+    
+  } 
+  textarea{
+    display: block;
+    background: rgb(252, 248, 248);
+    border: 1px solid rgb(206, 201, 201);
+    border-radius: 4px;
+    height: 100px;
+    width: 350px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+  button{
+    background: #50f215;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 174px;
+    cursor: pointer;
+    color: aliceblue;
+  }
+  button:hover{
+    opacity: 0.8;
+  }
+   
+.voltar{
+  background: gray;
+}
+div{
+  opacity: 1;
+  transition: opacity 1s;
+
+}

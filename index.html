@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>projeto pag gamer</title>
+</head>
+
+<body>
+    <div>
+        <img src="./gamerclub.jpeg">
+
+        <h1> O que voce encontra aqui</h1>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi possimus reiciendis amet deleniti obcaecati
+            harum
+            cum ipsam eveniet quae dignissimos repellendus, dolorum doloremque excepturi. Ipsum sunt nihil dolore culpa
+            aut.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic modi praesentium voluptatibus atque nihil
+            explicabo
+            ipsam libero commodi nostrum itaque? Reprehenderit tenetur facere, dolor ipsa modi repellendus provident
+            atque
+            explicabo!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt vero autem laborum officia expedita voluptatem
+            quam? Consectetur, eaque qui excepturi ullam molestiae officia, repellat, nesciunt voluptates illo saepe
+            reiciendis sit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea laboriosam illo possimus necessitatibus, commodi
+            eveniet porro odit unde. Eius in sunt consequatur quidem quisquam temporibus! Et dicta atque quidem
+            perspiciatis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati officiis vitae cupiditate nulla voluptates
+            harum blanditiis inventore cum! Consequatur aperiam error rerum magnam eaque illo, possimus doloribus
+            obcaecati expedita doloremque!</p>
+
+        <button onclick="abrir()">Entrar em contato</button>
+    </div>
+    <form action="https://formsubmit.co/your@email.com" method="POST">
+        <input type="text" name="name" required placeholder="Nome">
+        <input type="email" name="email" required placeholder="Email">
+        <textarea placeholder="Sua duvida aqui"></textarea>
+        <button type="submit">Enviar</button>
+        <button onclick="fechar()" type="button" class="voltar">Voltar</button>
+
+    </form>
+
+</body>
+<script>
+    function abrir() {
+        document.querySelector("form").style.opacity = 1
+        document.querySelector("div").style.opacity = 0.2
+
+    }
+    function fechar() {
+        document.querySelector("form").style.opacity = 0
+        document.querySelector("div").style.opacity = 1
+    }
+</script>
+</html>
